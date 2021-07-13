@@ -1,0 +1,40 @@
+#main {
+  margin-top: 100px;
+  width: 500px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.main_apply_logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.main_apply {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_apply_contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_apply_contents input {
+  margin: 10px 0px;
+}
+
+.main_apply_contents input:nth-child(3) {
+  width: 300px;
+  height: 300px;
+}
